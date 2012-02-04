@@ -3,11 +3,12 @@
 from distutils.core import setup
 setup (
         name = 'markdown.superscript',
-        py_modules = ['markdown.extensions.superscript']
+        py_modules = ['markdown.extensions.superscript'],
+        package_dir = {'markdown.extensions': '.'},
         version = '0.9.0',
         description = 'A Superscript Extension for Markdown',
         author = 'Shane Graber',
-        author_email = 'sgraber@gmail.com'
+        author_email = 'sgraber@gmail.com',
         url = 'https://github.com/sgraber/markdown.superscript',
         classifiers = [
             'Programming Language :: Python',
