@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 setup (
-        name = 'markdown.superscript',
+        name = 'markdown.extensions.superscript',
         py_modules = ['markdown.extensions.superscript'],
         package_dir = {'markdown.extensions': '.'},
         version = '0.9.0',
